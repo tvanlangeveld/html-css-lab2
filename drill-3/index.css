@@ -1,0 +1,68 @@
+
+#top{
+  background-color: lightgray;
+  height: 80px;
+  width: 100vmax;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#box{
+  background-color: blue;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+#text{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+#colors{
+  display: flex;
+  flex-direction: column;
+}
+
+#blue{
+  height: 150px;
+  width: 100vmax;
+  background-color: blue;
+  position: relative;
+  right: 10px;
+
+}
+
+#red{
+  height: 150px;
+  width: 100vmax;
+  background-color: red;
+  position: relative;
+  right: 10px;
+}
+
+#yellow{
+  height: 150px;
+  width: 100vmax;
+  background-color: yellow;
+  position: relative;
+  right: 10px;
+}
+
+
+#green{
+  height: 150px;
+  width: 100vmax;
+  background-color: green;
+  position: relative;
+  right: 10px;
+}
