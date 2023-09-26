@@ -1,0 +1,50 @@
+
+
+#top-section{
+  background-color: rgb(78, 78, 78);
+  height: 130px;
+  width: 100vmax;
+  z-index: 10;
+  position: relative;
+  bottom: 15px;
+  right: 10px;
+  
+
+}
+
+
+
+#middle{
+  background-color: rgb(198, 198, 198);
+  height: 100vmax;
+  width: 100px;
+  display: flex;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 2;
+}
+
+#middle-1{
+  background-color: rgb(198, 198, 198);
+  height: 100vw;
+  width: 100px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 3;
+
+}
+
+#footer{
+  background-color: black;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100vw;
+  height: 100px;
+  z-index: 0;
+}
+
